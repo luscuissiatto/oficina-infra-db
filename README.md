@@ -14,8 +14,6 @@ O projeto gerencia o ciclo de vida do banco de dados relacional **Amazon RDS (Po
 ## 🏗️ Arquitetura de Dados e Segurança
 A arquitetura foi desenhada priorizando a segurança (Security by Design). O banco de dados não possui endereço IP público e só aceita conexões originadas de fontes confiáveis dentro da VPC.
 
-![Arquitetura DB]([INSIRA O LINK DO DIAGRAMA MERMAID AQUI])
-
 **Fluxo de Acesso:**
 1.  **Cluster EKS:** A aplicação Backend acessa o banco via porta 5432.
 2.  **AWS Lambda:** A função de autenticação acessa o banco para validar usuários.
