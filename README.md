@@ -1,5 +1,7 @@
 # 🗄️ Oficina Mecânica - Infraestrutura de Banco de Dados
 
+> **📦 Versão anterior do projeto.** Este repositório é da fase monolítica do sistema de oficina mecânica (Pós-Graduação em Arquitetura de Software, FIAP). A versão final, com microsserviços, saga e integração com o Mercado Pago, está na organização **[oficina-mecanica-app](https://github.com/oficina-mecanica-app)**.
+
 ## 📋 Sobre o Projeto
 Este repositório armazena o código **Terraform (IaC - Infrastructure as Code)** responsável exclusivamente pelo provisionamento da camada de persistência de dados do sistema "Oficina Mecânica".
 
