@@ -1,7 +1,8 @@
 name: Infra DB Deploy
+# Execução manual: este workflow cria recursos pagos na AWS (terraform apply).
+# Rode pela aba Actions > "Run workflow" quando quiser provisionar o ambiente.
 on:
-  push:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   terraform:
